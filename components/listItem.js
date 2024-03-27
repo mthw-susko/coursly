@@ -75,6 +75,16 @@ const ListItem = ({ course }) => {
                             profDisplay.map((elem) => elem)
                         }
                     </Text>
+                    <Text fontSize={'xl'}>
+                        Course Location: 
+                        <Box as='span' color={"#FFAD4D"}> {course.courseLocation}</Box>
+                            
+                    </Text>
+                    <Text fontSize={'xl'}>
+                        Course time: 
+                        <Box as='span' color={"#FFAD4D"}> {course.courseTime}</Box>
+                            
+                    </Text>
                 </Stack>
             </Box>
         </Stack>

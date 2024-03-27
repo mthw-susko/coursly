@@ -29,7 +29,9 @@ export default function Home() {
         courseRateMyProf: course.rate_my_prof,
         courseRateMyProfUrl: course.rate_my_prof_url,
         courseMajor: course.major,
-        courseYear: course.year
+        courseYear: course.year,
+        courseLocation: course.location,
+        courseTime: course.time
     }
   })
   // Filter courses based on the selected filters and search term
@@ -86,7 +88,9 @@ export default function Home() {
           courseRateMyProf: course_info.rate_my_prof,
           courseRateMyProfUrl: course_info.rate_my_prof_url,
           courseMajor: course_info.major,
-          courseYear: course_info.year
+          courseYear: course_info.year,
+          courseLocation: course_info.location,
+          courseTime: course_info.time
         };
       }).filter(Boolean); // Filter out any nulls from missing courses
 

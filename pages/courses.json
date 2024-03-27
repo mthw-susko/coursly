@@ -13,7 +13,9 @@
       "rate_my_prof": "4.7",
       "rate_my_prof_url": "http://ratemyprof.com/ada_lovelace",
       "major": "Comp Sci",
-      "year": "3rd"
+      "year": "3rd",
+      "location": "Ellis Hall",
+      "time": "Mon Wed Fri (3:30pm)"
     },
     {
       "id": "4",
@@ -27,7 +29,9 @@
       "rate_my_prof": "5.0",
       "rate_my_prof_url": "http://ratemyprof.com/philip_kotler",
       "major": "Commerce",
-      "year": "2nd"
+      "year": "2nd",
+      "location": "Jeffery Hall",
+      "time": "Mon Wed Fri (1:30pm)"
     },
     {
       "id": "5",
@@ -41,7 +45,9 @@
       "rate_my_prof": "2.8",
       "rate_my_prof_url": "http://ratemyprof.com/elsie_eaves",
       "major": "Engineering",
-      "year": "1st"
+      "year": "1st",
+      "location": "Dunning AUD",
+      "time": "Mon Wed Fri (8:30am)"
     }
   ]
 }

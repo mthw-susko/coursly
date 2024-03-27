@@ -39,7 +39,7 @@ const Search = ({ availableCourses, courseSelectChange }) => {
 
   return (
     <Container maxW='container.md' p={'1em'} display={'flex'} pb={'5em'}>
-      <Box flex={1} mr={2}>
+      <Box flex={1} mr={4}>
         <FormControl>
           <FormLabel as='b'>Course Code</FormLabel>
         <WindowedSelect
