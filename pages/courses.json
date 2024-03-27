@@ -1,0 +1,47 @@
+{
+  "course_codes": ["CISC 320", "COMM 200", "APSC 101"],
+  "courses_info": [
+    {
+      "id": "3",
+      "code": "CISC 320",
+      "name": "Introduction to Algorithms",
+      "description": "Design of algorithms and data structures. Divide-and-conquer, greedy and dynamic programming methods.",
+      "gpa": "4.0",
+      "gpa_url": "http://gpacalc.com/cisc320",
+      "professor_name": "Dr. Ada Lovelace",
+      "enroll": "120",
+      "rate_my_prof": "4.7",
+      "rate_my_prof_url": "http://ratemyprof.com/ada_lovelace",
+      "major": "Comp Sci",
+      "year": "3rd"
+    },
+    {
+      "id": "4",
+      "code": "COMM 200",
+      "name": "Principles of Marketing",
+      "description": "An overview of marketing principles, concepts, and techniques, including market analysis and planning, product development, promotion, and distribution.",
+      "gpa": "3.6",
+      "gpa_url": "http://gpacalc.com/comm200",
+      "professor_name": "Dr. Philip Kotler",
+      "enroll": "180",
+      "rate_my_prof": "5.0",
+      "rate_my_prof_url": "http://ratemyprof.com/philip_kotler",
+      "major": "Commerce",
+      "year": "2nd"
+    },
+    {
+      "id": "5",
+      "code": "APSC 101",
+      "name": "Introduction to Engineering",
+      "description": "Foundational concepts in engineering, covering various engineering disciplines, problem-solving skills, and introduction to design.",
+      "gpa": "2.0",
+      "gpa_url": "http://gpacalc.com/engr101",
+      "professor_name": "Dr. Elsie Eaves",
+      "enroll": "220",
+      "rate_my_prof": "2.8",
+      "rate_my_prof_url": "http://ratemyprof.com/elsie_eaves",
+      "major": "Engineering",
+      "year": "1st"
+    }
+  ]
+}
