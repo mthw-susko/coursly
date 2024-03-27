@@ -1,0 +1,3 @@
+run `npm i --force` to install all dependencies
+
+to run the front-end, use the command `npm run dev` and a local host instance will start...
