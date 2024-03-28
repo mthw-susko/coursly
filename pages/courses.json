@@ -15,7 +15,8 @@
       "major": "Comp Sci",
       "year": "3rd",
       "location": "Ellis Hall",
-      "time": "Mon Wed Fri (3:30pm)"
+      "time": "Mon Wed Fri (3:30pm)",
+      "comments" : "great class love the prof"
     },
     {
       "id": "4",
@@ -31,7 +32,8 @@
       "major": "Commerce",
       "year": "2nd",
       "location": "Jeffery Hall",
-      "time": "Mon Wed Fri (1:30pm)"
+      "time": "Mon Wed Fri (1:30pm)",
+      "comments" : "great class love the prof"
     },
     {
       "id": "5",
@@ -47,7 +49,8 @@
       "major": "Engineering",
       "year": "1st",
       "location": "Dunning AUD",
-      "time": "Mon Wed Fri (8:30am)"
+      "time": "Mon Wed Fri (8:30am)",
+      "comments" : "great class love the prof"
     },
     {
       "id": "8",
@@ -63,7 +66,8 @@
       "major": "Mathematics",
       "year": "1st",
       "location": "Goodwin Hall",
-      "time": "Tue Thu (10:00am)"
+      "time": "Tue Thu (10:00am)",
+      "comments" : "great class love the prof"
     },
     {
       "id": "9",
@@ -79,7 +83,8 @@
       "major": "Biology",
       "year": "1st",
       "location": "Biosciences Complex",
-      "time": "Mon Wed Fri (9:00am)"
+      "time": "Mon Wed Fri (9:00am)",
+      "comments" : "great class love the prof"
     },
     {
       "id": "10",
@@ -95,7 +100,8 @@
       "major": "History",
       "year": "2nd",
       "location": "Watson Hall",
-      "time": "Tue Thu (2:00pm)"
+      "time": "Tue Thu (2:00pm)",
+      "comments" : "great class love the prof"
     },
     {
       "id": "11",
@@ -111,7 +117,8 @@
       "major": "Psychology",
       "year": "1st",
       "location": "Ellis Hall",
-      "time": "Wed Fri (11:00am)"
+      "time": "Wed Fri (11:00am)",
+      "comments" : "great class love the prof"
     },
     {
       "id": "12",
@@ -127,7 +134,8 @@
       "major": "Chemistry",
       "year": "1st",
       "location": "Chernoff Hall",
-      "time": "Tue Thu (8:00am)"
+      "time": "Tue Thu (8:00am)",
+      "comments" : "great class love the prof"
     }
     ]
 }

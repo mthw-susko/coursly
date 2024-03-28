@@ -46,6 +46,8 @@ const ListItem = ({ course }) => {
                     </Highlight>
                 </Text>
                 <Text>{course.courseDesc}</Text>
+                <h1 style={{color:'#FFAD4D'}}>Comments</h1>
+                <Text>{course.courseComment}</Text>
             </Box>
             <Box float={'left'}>
             <Divider orientation='vertical' borderColor={'#CEDEFF'} borderWidth='2px' borderRadius={'7px'} />

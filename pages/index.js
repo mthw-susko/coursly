@@ -31,7 +31,8 @@ export default function Home() {
         courseMajor: course.major,
         courseYear: course.year,
         courseLocation: course.location,
-        courseTime: course.time
+        courseTime: course.time,
+        courseComment: course.comments
     }
   })
   // Filter courses based on the selected filters and search term
