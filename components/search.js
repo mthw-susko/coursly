@@ -4,7 +4,7 @@ import WindowedSelect from 'react-windowed-select'
 const Search = ({ availableCourses, courseSelectChange }) => {
 
   const customStyles = {
-    control: (styles) => ({ ...styles, height: '3em', backgroundColor: '#FFAD4D', color: 'white' }),
+    control: (styles) => ({ ...styles, minHeight: '3em', backgroundColor: '#FFAD4D', color: 'white' }),
     input: (styles) => ({
       ...styles,
       color: 'white'

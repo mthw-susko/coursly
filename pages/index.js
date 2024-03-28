@@ -127,6 +127,10 @@ export default function Home() {
               <option value="Comp Sci">Comp Sci</option>
               <option value="Commerce">Commerce</option>
               <option value="Engineering">Engineering</option>
+              <option value="History">History</option>
+              <option value="Chemistry">Chemistry</option>
+              <option value="Psychology">Psychology</option>
+              <option value="Biology">Biology</option>
             </Select>
           </Box>
           <Box mr={2}>

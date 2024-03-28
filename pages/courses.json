@@ -1,5 +1,5 @@
 {
-  "course_codes": ["CISC 320", "COMM 200", "APSC 101"],
+  "course_codes": ["CISC 320", "COMM 200", "APSC 101", "APSC 102", "APSC 103", "MATH 111", "BIOL 101", "HIST 205", "PSYC 100", "CHEM 112"],
   "courses_info": [
     {
       "id": "3",
@@ -39,7 +39,7 @@
       "name": "Introduction to Engineering",
       "description": "Foundational concepts in engineering, covering various engineering disciplines, problem-solving skills, and introduction to design.",
       "gpa": "2.0",
-      "gpa_url": "http://gpacalc.com/engr101",
+      "gpa_url": "http://gpacalc.com/apsc101",
       "professor_name": "Dr. Elsie Eaves",
       "enroll": "220",
       "rate_my_prof": "2.8",
@@ -48,6 +48,86 @@
       "year": "1st",
       "location": "Dunning AUD",
       "time": "Mon Wed Fri (8:30am)"
+    },
+    {
+      "id": "8",
+      "code": "MATH 111",
+      "name": "Calculus I",
+      "description": "Introduction to differential calculus of functions of one variable.",
+      "gpa": "2.8",
+      "gpa_url": "http://gpacalc.com/math111",
+      "professor_name": "Dr. Leonhard Euler",
+      "enroll": "150",
+      "rate_my_prof": "4.5",
+      "rate_my_prof_url": "http://ratemyprof.com/leonhard_euler",
+      "major": "Mathematics",
+      "year": "1st",
+      "location": "Goodwin Hall",
+      "time": "Tue Thu (10:00am)"
+    },
+    {
+      "id": "9",
+      "code": "BIOL 101",
+      "name": "Introduction to Biology",
+      "description": "Fundamentals of cell biology, genetics, and molecular biology are discussed.",
+      "gpa": "3.2",
+      "gpa_url": "http://gpacalc.com/biol101",
+      "professor_name": "Dr. Charles Darwin",
+      "enroll": "200",
+      "rate_my_prof": "4.2",
+      "rate_my_prof_url": "http://ratemyprof.com/charles_darwin",
+      "major": "Biology",
+      "year": "1st",
+      "location": "Biosciences Complex",
+      "time": "Mon Wed Fri (9:00am)"
+    },
+    {
+      "id": "10",
+      "code": "HIST 205",
+      "name": "World History",
+      "description": "A survey of world history from the Renaissance to the present, emphasizing global patterns of change and exchange.",
+      "gpa": "3.0",
+      "gpa_url": "http://gpacalc.com/hist205",
+      "professor_name": "Dr. Herodotus",
+      "enroll": "100",
+      "rate_my_prof": "3.9",
+      "rate_my_prof_url": "http://ratemyprof.com/herodotus",
+      "major": "History",
+      "year": "2nd",
+      "location": "Watson Hall",
+      "time": "Tue Thu (2:00pm)"
+    },
+    {
+      "id": "11",
+      "code": "PSYC 100",
+      "name": "Introduction to Psychology",
+      "description": "Overview of psychological science, including major theories and findings in psychological research.",
+      "gpa": "3.3",
+      "gpa_url": "http://gpacalc.com/psyc100",
+      "professor_name": "Dr. Sigmund Freud",
+      "enroll": "180",
+      "rate_my_prof": "4.0",
+      "rate_my_prof_url": "http://ratemyprof.com/sigmund_freud",
+      "major": "Psychology",
+      "year": "1st",
+      "location": "Ellis Hall",
+      "time": "Wed Fri (11:00am)"
+    },
+    {
+      "id": "12",
+      "code": "CHEM 112",
+      "name": "General Chemistry",
+      "description": "Fundamentals of chemical theory and practice, including stoichiometry, thermochemistry, and atomic structure.",
+      "gpa": "2.5",
+      "gpa_url": "http://gpacalc.com/chem112",
+      "professor_name": "Dr. Marie Curie",
+      "enroll": "150",
+      "rate_my_prof": "4.8",
+      "rate_my_prof_url": "http://ratemyprof.com/marie_curie",
+      "major": "Chemistry",
+      "year": "1st",
+      "location": "Chernoff Hall",
+      "time": "Tue Thu (8:00am)"
     }
-  ]
+    ]
 }
