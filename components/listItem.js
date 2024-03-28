@@ -34,7 +34,7 @@ const ListItem = ({ course }) => {
 
   return (
     <Container 
-    maxW={'container.md'} bgColor="#2B308B" 
+    maxW={'container.lg'} bgColor="#2B308B" 
     style={{borderRadius:'7px'}} p={'1em'}  mb={'1em'}
     _hover={{ boxShadow: "outline", outlineColor:'#5A81FA'}}
     >

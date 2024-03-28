@@ -6,8 +6,8 @@ const ContentList = ({ courses }) => {
   const CourseList = () => {
     return (
       <Box bgColor="#CEDEEF">
-        <Container maxW={'container.md'} minH='54vh'>
-          <Container maxW={'container.md'} p={'1em'} maxH='70vh'  overflow={'hidden'} 
+        <Container maxW={'container.lg'} minH='54vh'>
+          <Container maxW={'container.lg'} p={'1em'} maxH='70vh'  overflow={'hidden'} 
           style={{overflowY:'auto', scrollbarColor:"white #CEDEEF"}} >
               <Stack direction={['column', 'row']} spacing='2em'></Stack>
                 {courses.map((course) => course != false &&

@@ -53,7 +53,7 @@ const Search = ({ availableCourses, courseSelectChange }) => {
       </Box>
       <Box mr={2}>
         <Text >School Year</Text>
-        <Select maxW={'7em'} height={'3em'} color={'#CEDEFF'} bg={'#2B308B'} mr={2} mt={2}
+        <Select maxW={'7em'} height={'3em'} bg={'#5A81FA'} mr={2} mt={2}
         >
           <option value="option1">Fall</option>
           <option value="option2">Winter</option>
@@ -63,7 +63,7 @@ const Search = ({ availableCourses, courseSelectChange }) => {
 
       <Box mr={2}>
         <Text>Semester</Text>
-        <Select maxW={'7em'} height={'3em'} color={'#CEDEFF'} bg={'#2B308B'} mt={2}>
+        <Select maxW={'7em'} height={'3em'} bg={'#5A81FA'} mt={2}>
           <option value="option1">2023</option>
           <option value="option2">2022</option>
           <option value="option3">2021</option>
