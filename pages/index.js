@@ -120,10 +120,10 @@ export default function Home() {
         <Search availableCourses={availableCourses} courseSelectChange={handleSelectedItemsChange} />
       <Box height='50%' >
         <Box display={'flex'} mb={'1em'}>
-          <Text as={'b'} mt={'2em'}>Sort By:&nbsp;</Text>
+          <Text as={'b'} mt={'2em'} color={'white'}>Sort By:&nbsp;</Text>
           <Box mr={2}>
-            <Text>Program:</Text>
-            <Select maxW={'10em'} height={'3em'}  bg={'#5A81FA'} placeholder="Program" defaultValue="" onChange={(e) => setSelectedMajor(e.target.value)}>
+            <Text color={'white'}>Program:</Text>
+            <Select maxW={'10em'} color={'white'} height={'3em'}  bg={'#5A81FA'} placeholder="Program" defaultValue="" onChange={(e) => setSelectedMajor(e.target.value)}>
               <option value="Comp Sci">Comp Sci</option>
               <option value="Commerce">Commerce</option>
               <option value="Engineering">Engineering</option>
@@ -134,8 +134,8 @@ export default function Home() {
             </Select>
           </Box>
           <Box mr={2}>
-            <Text >Year:</Text>
-            <Select maxW={'10em'} height={'3em'}  bg={'#5A81FA'} placeholder="Year" mr={2} defaultValue="" onChange={(e) => setSelectedYear(e.target.value)}>
+            <Text color={'white'} >Year:</Text>
+            <Select maxW={'10em'} color={'white'} height={'3em'}  bg={'#5A81FA'} placeholder="Year" mr={2} defaultValue="" onChange={(e) => setSelectedYear(e.target.value)}>
               <option value="1st">1st</option>
               <option value="2nd">2nd</option>
               <option value="3rd">3rd</option>
@@ -143,8 +143,8 @@ export default function Home() {
             </Select>
           </Box>
           <Box mr={2}>
-            <Text >Average GPA:</Text>
-            <Select maxW={'10em'} height={'3em'}  bg={'#5A81FA'} placeholder="Average GPA" mr={2} defaultValue="" onChange={(e) => setSelectedGPA(e.target.value)}>
+            <Text  color={'white'}>Average GPA:</Text>
+            <Select  color={'white'}maxW={'10em'} height={'3em'}  bg={'#5A81FA'} placeholder="Average GPA" mr={2} defaultValue="" onChange={(e) => setSelectedGPA(e.target.value)}>
               <option value="1.0">1.0</option>
               <option value="2.0">2.0</option>
               <option value="3.0">3.0</option>
@@ -152,8 +152,8 @@ export default function Home() {
             </Select>
           </Box>
           <Box>
-            <Text >Rate My Prof:</Text>
-            <Select maxW={'10em'} height={'3em'} bg={'#5A81FA'} placeholder="Rate My Prof" defaultValue="" onChange={(e) => setSelectedProfRating(e.target.value)}>
+            <Text  color={'white'}>Rate My Prof:</Text>
+            <Select  color={'white'}maxW={'10em'} height={'3em'} bg={'#5A81FA'} placeholder="Rate My Prof" defaultValue="" onChange={(e) => setSelectedProfRating(e.target.value)}>
               <option value="1.0">1.0</option>
               <option value="2.0">2.0</option>
               <option value="3.0">3.0</option>

@@ -23,7 +23,7 @@ const ListItem = ({ course }) => {
             <>
                 {course.courseRateMyProf != "N/A" 
                     ? <><Link color={"#FFAD4D"} href={course.courseRateMyProfUrl} isExternal>
-                        <Badge variant='subtle' fontSize={'0.9em'} color={'#FFAD4D'}>{course.courseRateMyProf}<ExternalLinkIcon pb={'0.2em'}/></Badge>
+                        <Badge variant='subtle' backgroundColor={'#4a4d96'} fontSize={'0.9em'} color={'#FFAD4D'}>{course.courseRateMyProf}<ExternalLinkIcon pb={'0.2em'}/></Badge>
                         </Link>&nbsp;</>
                     : <Text color={"#FFAD4D"}>{course.courseRateMyProf}</Text>
                 }
@@ -39,7 +39,7 @@ const ListItem = ({ course }) => {
     _hover={{ boxShadow: "outline", outlineColor:'#5A81FA'}}
     >
         <Stack direction={'row'}>
-            <Box style={{float:'left'}} width='60%'> 
+            <Box style={{float:'left'}} width='60%' color={'white'}> 
                 <Text fontSize={'2xl'} top='0' as='b'>
                     <Highlight query={course.courseCode} styles={{ color:'#FFAD4D'}}>
                         {courseHeader}
@@ -52,13 +52,13 @@ const ListItem = ({ course }) => {
             <Box float={'left'}>
             <Divider orientation='vertical' borderColor={'#CEDEFF'} borderWidth='2px' borderRadius={'7px'} />
             </Box>
-            <Box style={{float:'left'}} width='40%'>
+            <Box style={{float:'left'}} width='40%' color={'white'}>
                 <Stack direction={'column'} alignContent={'center'} display={'inline'}>
                     <Text fontSize={'xl'}>
                         GPA:&nbsp;
                         {course.courseGpaUrl != "N/A" 
                             ?<Link color={"#FFAD4D"} href={course.courseGpaUrl} isExternal>
-                                <Badge variant='subtle' fontSize={'0.9em'} color={'#FFAD4D'}>{course.courseGpa}<ExternalLinkIcon pb={'0.2em'}/></Badge>
+                                <Badge variant='subtle' fontSize={'0.9em'} color={'#FFAD4D'} backgroundColor={'#4a4d96'}>{course.courseGpa}<ExternalLinkIcon pb={'0.2em'}/></Badge>
                             </Link>
                             :<Text color={"#FFAD4D"}>{course.courseGpa}</Text>
                         }
@@ -71,7 +71,7 @@ const ListItem = ({ course }) => {
                         <Box as='span' color={"#FFAD4D"}> {course.courseProfName}</Box>
                             
                     </Text>
-                    <Text fontSize={'xl'}>
+                    <Text fontSize={'xl'} >
                         Rate My Prof:&nbsp;
                         {
                             profDisplay.map((elem) => elem)

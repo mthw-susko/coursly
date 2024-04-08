@@ -41,7 +41,7 @@ const Search = ({ availableCourses, courseSelectChange }) => {
     <Container maxW='container.md' p={'1em'} display={'flex'} pb={'5em'}>
       <Box flex={1} mr={4}>
         <FormControl>
-          <FormLabel as='b'>Course Code</FormLabel>
+          <FormLabel as='b' color={'white'}>Course Code</FormLabel>
         <WindowedSelect
           options={availableCourses}
           styles={customStyles}
@@ -52,8 +52,8 @@ const Search = ({ availableCourses, courseSelectChange }) => {
         </FormControl>
       </Box>
       <Box mr={2}>
-        <Text >School Year</Text>
-        <Select maxW={'7em'} height={'3em'} bg={'#5A81FA'} mr={2} mt={2}
+        <Text color={'white'}>School Year</Text>
+        <Select maxW={'7em'} height={'3em'} bg={'#5A81FA'} mr={2} mt={2} color={'white'}
         >
           <option value="option1">Fall</option>
           <option value="option2">Winter</option>
@@ -62,8 +62,8 @@ const Search = ({ availableCourses, courseSelectChange }) => {
         </Box>
 
       <Box mr={2}>
-        <Text>Semester</Text>
-        <Select maxW={'7em'} height={'3em'} bg={'#5A81FA'} mt={2}>
+        <Text color={'white'}>Semester </Text>
+        <Select maxW={'7em'} height={'3em'} bg={'#5A81FA'} mt={2} color={'white'}> 
           <option value="option1">2023</option>
           <option value="option2">2022</option>
           <option value="option3">2021</option>

@@ -275,8 +275,8 @@
     },
     {
       "id": "20",
-      "code": "eng 202",
-      "name": "General eng 2",
+      "code": "APSC 202",
+      "name": "General Engineering 2",
       "description": "Fundamentals of Egineering",
       "gpa": "2.5",
       "gpa_url": "http://gpacalc.com/chem112",

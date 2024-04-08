@@ -4,10 +4,10 @@ const Logo = () => {
   return (
     <Box pt='5em' pb='5em'>
         <Stack direction={['column', 'row']} spacing='4em'>
-        <Text fontSize='7xl' as='b'>
+        <Text fontSize='7xl' as='b' color={'white'}>
             Coursly
         </Text>
-        <Text pt='2.75em'>
+        <Text pt='2.75em' color={'white'}>
             Unlock Your Perfect Path: Course Guidance Tailored for Queen's.
         </Text>
         </Stack>
